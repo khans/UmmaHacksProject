@@ -1,0 +1,58 @@
+  
+   body
+   {
+      height: 800px; 
+      background-color: #fdb813; 
+      background-image: linear-gradient(315deg, #fdb813 0%, #788cb6 74%);
+      font-color:color: #001f3f;
+    }
+		
+
+		h3
+		{
+  			color: #001f3f;
+  			text-align: center;
+  			font-size: 25px;
+		}
+
+    
+
+    .gamebtn
+    {
+        background-color: #577284; 
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;  
+
+    }
+
+   #play {
+        text-align: center;
+      }
+
+    h1
+    {
+        color: #001f3f;
+        text-align: center;
+        font-size: 30px;
+    }
+
+      
+   
+
+    #bibliography 
+    {
+        position: fixed;
+        bottom: 200;
+        left: 30;
+      }
+
+      #score
+      {
+        position: fixed;     
+
+      }

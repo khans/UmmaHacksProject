@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title>Welcome page of MuQu</title>
+<link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/styles_ie.css')}}">
+</head>
+<body>
+	
+		<h3>Welcome to <i>'MuQu'</i> - a Muslim Trivia </h3>
+        
+        <br><br><br>
+
+       
+        <div id="intro" style= "text-align: center; border: 2px dotted gray;">
+        	
+			Did you know that Muslims are the second-largest religious group in the world?
+
+			Perhaps you have a Muslim family member, friend, neighbor  or co-worker and you’d like to know more about their beliefs, or test what you know already? 
+
+
+			Press start to take a quiz and test your knowledge! 
+
+			We would love for you to know more so each question offers a hint if you are stuck, and links to materials to learn more about the topic should you be interested. 
+			
+			Ready? Lets go!
+		
+		</div>
+		
+
+			<form method="POST" action="{{ url_for('quiz') }}">
+
+			<br><br>
+			<p id="play"> <button class = "gamebtn">Play Game</button></p>
+
+
+			<br>
+
+			</form>
+</body>
+
+</html>

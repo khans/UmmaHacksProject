@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title>Quiz Score and References</title>
+<link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/styles_ie.css')}}">
+</head>
+<body>
+
+	<div id="score">
+		{% if score == 0%}
+		<h1>Awww...Your score is {{score}}</h1>
+		{%else%}
+		<h1>Woohoo! Your score is {{score}} out of 5</h1>
+		{%endif%}
+	</div>
+
+	<form method="POST" action="{{ url_for('quiz') }}">
+
+	<br><br><br><br>
+	<button class = "gamebtn"><b>Try Again?</b></button>
+
+	<br>
+
+</form>
+
+				<br><br><br>
+				<div id="bibliography">
+					<i><strong>Following is the Bibliography and References:</strong><br>
+						{% for r in references%}
+						<br> <a target="_blank" rel="noopener noreferrer" href={{r[1]}}>{{r[0]}}</a> </br>
+						{%endfor%}
+
+						<br><a target="_blank" rel="noopener noreferrer" href="https://www.huffpost.com/entry/top-10-books-about-muslim_b_13872346">Books About Muslims</a><br>
+						<br><a target="_blank" rel="noopener noreferrer" href="http://www.oxfordislamicstudies.com/Public/book_tq.html">Oxford Islamic Studies</a><br>
+					</i>
+				</div>
+
+
+</body>
+</html>

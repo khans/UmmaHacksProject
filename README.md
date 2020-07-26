@@ -30,10 +30,11 @@ Editor:
     python3 server.py
 3) The application will run on port 5000. 
 4) The welcome page has a simple button to start the quiz.
-5) This naviagates to the quiz page which has randomly selected questions. 
+5) This navigates to the quiz page which has randomly selected questions. 
 6) You can choose from the options and this can be submitted to the server.
 7) The server calculates the score by comparing the options chosen with the answer set.
 8) The results page is simply printing the score and shows the links to the references of the topics covered in the questions.
+P.S: The questions and answers are stored in datastructures, refer structures.py.
 
 ### Resources: 
 Flask: https://www.tutorialspoint.com/flask/index.htm

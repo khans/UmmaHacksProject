@@ -18,11 +18,11 @@ I used html and css.
 
 ### Prerequisites:
 Python 3 <br>
-    https://www.python.org/downloads/ <br>
+---> https://www.python.org/downloads/ <br>
 Flask - Web framework for Python <br>
-    command: pip3 install Flask <br>
+---> command: pip3 install Flask <br>
 Editor: <br>
-    Sublime Text <br> 
+---> Sublime Text <br> 
 
 ### Working:
 1) The github repository is at https://github.com/khans/UmmaHacksProject.git which can be cloned to your local machine.

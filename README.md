@@ -17,12 +17,12 @@ Results Page
 I used html and css.
 
 ### Prerequisites:
-Python 3
-    https://www.python.org/downloads/
-Flask - Web framework for Python 
-    command: pip3 install Flask
-Editor:
-    Sublime Text 
+Python 3 <br>
+    https://www.python.org/downloads/ <br>
+Flask - Web framework for Python <br>
+    command: pip3 install Flask <br>
+Editor: <br>
+    Sublime Text <br> 
 
 ### Working:
 1) The github repository is at https://github.com/khans/UmmaHacksProject.git which can be cloned to your local machine.
@@ -37,6 +37,6 @@ Editor:
 P.S: The questions and answers are stored in datastructures, refer structures.py.
 
 ### Resources: 
-Flask: https://www.tutorialspoint.com/flask/index.htm
-HTML, CSS: https://www.w3schools.com/
-Hosting: https://www.pythonanywhere.com/
+Flask: https://www.tutorialspoint.com/flask/index.htm <br>
+HTML, CSS: https://www.w3schools.com/ <br>
+Hosting: https://www.pythonanywhere.com/ <br>
